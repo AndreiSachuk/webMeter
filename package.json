@@ -1,0 +1,24 @@
+{
+  "name": "webmeter",
+  "version": "1.0.0",
+  "description": "meter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiSachuk/webMeter.git"
+  },
+  "keywords": [
+    "meter",
+    "react",
+    "mongo"
+  ],
+  "author": "Andrei Sachuk <andrei.sachyk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiSachuk/webmeter/issues"
+  },
+  "homepage": "https://github.com/AndreiSachuk/webmeter#readme"
+}
