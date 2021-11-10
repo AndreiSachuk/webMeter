@@ -4,7 +4,8 @@
   "description": "meter",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/AndreiSachuk/webmeter/issues"
   },
-  "homepage": "https://github.com/AndreiSachuk/webmeter#readme"
+  "homepage": "https://github.com/AndreiSachuk/webmeter#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
 }
