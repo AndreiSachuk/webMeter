@@ -4,10 +4,12 @@
   "description": "meter",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -30,10 +32,12 @@
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "concurrently": "^6.3.0",
+    "cross-env": "^7.0.3",
     "nodemon": "^2.0.15"
   }
 }
