@@ -1,5 +1,5 @@
 {
   "port": 5000,
-  "mongoUrl": "mongodb+srv://andrei:Test1234@webmeter.n5i3f.mongodb.net/app?retryWrites=true&w=majority",
+  "mongoUrl": "mongodb+srv://andrei:Test1234@webmeter.n5i3f.mongodb.net/app?retryWrites=true&w=majority&family=4",
   "jwtSecret": "Staruem Андрей"
 }
